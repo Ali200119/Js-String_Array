@@ -3,50 +3,50 @@
 
 // Homework practice
 
-function getStudents() {
-    let student1 = {
-        name: "Pervin",
-        email: "pervin007@gmail.com"
-    }
-    let student2 = {
-        name: "Cinare",
-        email: "cinare@gmail.com"
-    }
-    let student3 = {
-        name: "Shaiq",
-        email: "shaiq@gmail.com"
-    }
-    let student4 = {
-        name: "Eli",
-        email: "eliyev@gmail.com"
-    }
-    
-    let students = [student1, student2, student3, student4];
+// function getStudents() {
+//     let student1 = {
+//         name: "Pervin",
+//         email: "pervin007@gmail.com"
+//     }
+//     let student2 = {
+//         name: "Cinare",
+//         email: "cinare@gmail.com"
+//     }
+//     let student3 = {
+//         name: "Shaiq",
+//         email: "shaiq@gmail.com"
+//     }
+//     let student4 = {
+//         name: "Eli",
+//         email: "eliyev@gmail.com"
+//     }
 
-    return students;
-}
+//     let students = [student1, student2, student3, student4];
 
-function getStudentCountByEmail(str) {
-    let students = getStudents();
+//     return students;
+// }
 
-    let count = 0;
+// function getStudentCountByEmail(str) {
+//     let students = getStudents();
 
-    for (const student of students) {
-        if (student.email.includes(str)) {
-            count++;
-        }
-    }
+//     let count = 0;
 
-    return count;
-}
+//     for (const student of students) {
+//         if (student.email.includes(str)) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
 
 // console.log(getStudentCountByEmail("e"));
 
-const getYearOfBirth = age => {
-    let date = new Date();
+// const getYearOfBirth = age => {
+//     let date = new Date();
 
-    return date.getFullYear() - age;
-}
+//     return date.getFullYear() - age;
+// }
 
 // console.log(getYearOfBirth(22));
 
@@ -58,7 +58,19 @@ const getYearOfBirth = age => {
 
 
 
+
+
+
+
+
+
+
 // String methods
+
+
+
+
+
 
 // let address = "Xetai";
 
@@ -120,3 +132,132 @@ const getYearOfBirth = age => {
 
 // console.log(result);
 
+// function toUpperFirstLetter(word) {
+//     return word.charAt(0).toUpperCase() + word.substring(1);
+//     return word.charAt(0).toUpperCase().concat(word.substring(1));
+// }
+
+// console.log(toUpperFirstLetter("hello"));
+
+// let text = "salam";
+
+// let result = text[0].toUpperCase();
+
+// let res = text.replace(text.charAt(0), result);
+
+// console.log(res);
+
+
+
+
+
+
+
+
+
+
+
+// Array methods
+
+
+
+
+
+
+// let students = ["Cavid", "Jale", "Roya", "Konul", "Jale", "Cinare", "Anar"];
+
+// console.log(students[students.length - 1]);
+
+// let result = students.join();
+
+// console.log(result);
+
+// console.log(students);
+
+// students.push("Elekber");
+
+// students.pop();
+
+// students.shift();
+
+// students.unshift("Hacker");
+
+// console.log(students);
+
+// function filter(arr) {
+//     let result = [];
+
+//     for (const item of arr) {
+//         if (item.includes("l")) {
+//             result.push(item);
+//         }
+//     }
+
+//     return result;
+// }
+
+// function filter(arr, text) {
+//     let result = [];
+
+//     for (const item of arr) {
+//         if (item.toLowerCase().startsWith(text.toLowerCase())) {
+//             result.push(item);
+//         }
+//     }
+
+//     return result;
+// }
+
+// console.log(filter(students, "R"));
+
+// console.log(students.indexOf("Jale"));
+
+// console.log(students.lastIndexOf("Jale"));
+
+// console.log(students.find(s => s == "Jale"));
+
+// console.log(students.sort());
+
+// console.log(students.reverse());
+
+// let numbers = [1, 3, 4, 3, 5, 6, 7];
+
+// console.log(numbers.sort((a, b) => b - a));
+
+// console.log(students.fill("Eli"));
+
+// console.log(students.fill("Eli", 1, 4));
+
+// console.log(students.every(s => s == "Cinare"));
+
+// let arr = [10, 22, 3, 4, 50, 6, 7, 8, 9, 10];
+
+// console.log(arr.every(n => n > 1));
+
+// let newArr = students.entries();
+
+// for (const item of newArr) {
+//     console.log(item);
+// }
+
+// console.log(arr.findIndex(n => n > 21));
+
+// console.log(arr.includes(22));
+
+// console.log(Array.isArray(arr));
+
+// let text = "Salam";
+
+// const newArr = Array.from(text);
+
+// newArr.forEach(element => {
+//     console.log(element);
+// });
+
+// console.log(arr.slice(3, 8));
+
+// let result = students.splice(2, 0, "Test1", "Test2")
+
+// console.log(result);
+
+// console.log(arr.toString());

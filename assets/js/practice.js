@@ -261,3 +261,30 @@
 // console.log(result);
 
 // console.log(arr.toString());
+
+
+
+
+
+
+
+
+
+
+
+
+// Convert type
+
+
+
+
+let age1 = "55";
+let age2 = "33";
+
+// console.log(typeof age.toString());
+
+// console.log(typeof Number(age));
+
+// console.log(Number(age1) + Number(age2));
+
+// console.log(typeof parseInt(age1));

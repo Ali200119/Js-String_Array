@@ -278,8 +278,8 @@
 
 
 
-let age1 = "55";
-let age2 = "33";
+// let age1 = "55";
+// let age2 = "33";
 
 // console.log(typeof age.toString());
 
@@ -288,3 +288,45 @@ let age2 = "33";
 // console.log(Number(age1) + Number(age2));
 
 // console.log(typeof parseInt(age1));
+
+
+
+
+
+
+
+
+
+
+// Spread and Rest operator
+
+// function getNums(num1, ...arr) {
+//     console.log(arr);
+// }
+
+// let getNums = (...arr) => {
+//     console.log(arr);
+// }
+
+// getNums(1, 2, 3, 4);
+
+// let arr1 = [1, 2, 3, 4, 5];
+
+// let copyArr = [...arr1];
+
+// console.log(copyArr);
+
+// arr1[0] = 10;
+
+// console.log(arr1);
+
+// let user1 = {
+//     name: "Shaiq",
+//     address: "Ehmedli"
+// }
+
+// console.log(user1);
+
+// let copyUser = {...user1}
+
+// console.log(copyUser);
